@@ -93,7 +93,7 @@
     // ─── Vote counter animation ───
     var voteEl = document.getElementById('voteCounter');
     if (voteEl) {
-        var voteTarget = 4268;
+        var voteTarget = 33952;
         var voteAnimated = false;
 
         var voteObserver = new IntersectionObserver(function (entries) {
