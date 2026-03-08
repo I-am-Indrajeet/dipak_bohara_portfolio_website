@@ -1,0 +1,31 @@
+{
+  "name": "dipak-bohara-website",
+  "version": "1.0.0",
+  "description": "Dipak Bohara – From Camera to Change – Official Campaign Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node build.js",
+    "prod": "npm run build && set NODE_ENV=production && node server.js"
+  },
+  "keywords": [
+    "dipak-bohara",
+    "campaign",
+    "nepal",
+    "kanchanpur"
+  ],
+  "author": "Dipak Bohara Campaign",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.37.0"
+  }
+}
