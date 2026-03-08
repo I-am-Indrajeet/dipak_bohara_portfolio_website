@@ -1,0 +1,8 @@
+# Robots.txt for Dipak Bohara Website
+# https://dipakbohara.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://dipakbohara.vercel.app/sitemap.xml
